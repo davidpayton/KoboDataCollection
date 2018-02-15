@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9627F4401FC81098007423F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F43F1FC81098007423F6 /* AppDelegate.swift */; };
+		9627F4421FC81098007423F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4411FC81098007423F6 /* ViewController.swift */; };
+		9627F4451FC81098007423F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9627F4431FC81098007423F6 /* Main.storyboard */; };
+		9627F4471FC81098007423F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9627F4461FC81098007423F6 /* Assets.xcassets */; };
+		9627F44A1FC81098007423F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9627F4481FC81098007423F6 /* LaunchScreen.storyboard */; };
+		9627F4551FC81098007423F6 /* KoboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4541FC81098007423F6 /* KoboTests.swift */; };
+		9627F4601FC81098007423F6 /* KoboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F45F1FC81098007423F6 /* KoboUITests.swift */; };
+		9627F4711FC836AA007423F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4701FC836AA007423F6 /* MainViewController.swift */; };
+		9627F4731FC836C7007423F6 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4721FC836C7007423F6 /* WorkViewController.swift */; };
+		9627F4751FC836E0007423F6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4741FC836E0007423F6 /* SettingViewController.swift */; };
+		9627F4771FC836ED007423F6 /* DiscussViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4761FC836ED007423F6 /* DiscussViewController.swift */; };
+		9627F4791FC83707007423F6 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627F4781FC83707007423F6 /* HelpViewController.swift */; };
+		9629B0AE1FD7F2C9004ABCBD /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9629B0A01FD7F289004ABCBD /* SQLite.framework */; };
+		9629B0AF1FD7F2C9004ABCBD /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9629B0A01FD7F289004ABCBD /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		964FD17B1FD9A69400DCF44E /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FD17A1FD9A69400DCF44E /* QuestionTableViewCell.swift */; };
+		964FD1841FD9A74A00DCF44E /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FD1831FD9A74A00DCF44E /* QuestionModel.swift */; };
+		9654CEF91FD9372900C8C041 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654CEF81FD9372900C8C041 /* QuestionViewController.swift */; };
+		968F75B71FD953FB00B16AF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968F75B61FD953FB00B16AF4 /* GoogleService-Info.plist */; };
+		AC85CCB9FE68EE263B5EC1A9 /* Pods_KoboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6630AB4B8183177DA948D4 /* Pods_KoboUITests.framework */; };
+		D23484FD2516D3B263542398 /* Pods_KoboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5E019FF42E1728BBEAADB0 /* Pods_KoboTests.framework */; };
+		E2538F2EB49E404094137765 /* Pods_Kobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818563611ABFD01A3A3DD2BB /* Pods_Kobo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9627F4511FC81098007423F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9627F4341FC81098007423F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9627F43B1FC81098007423F6;
+			remoteInfo = Kobo;
+		};
+		9627F45C1FC81098007423F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9627F4341FC81098007423F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9627F43B1FC81098007423F6;
+			remoteInfo = Kobo;
+		};
+		9629B09F1FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		9629B0A11FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		9629B0A31FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		9629B0A51FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		9629B0A71FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		9629B0A91FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		9629B0AB1FD7F289004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		9629B0B01FD7F2C9004ABCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9629B0861FD7EC0B004ABCBD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9629B0AF1FD7F2C9004ABCBD /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		038534FF336FF52E5CB9A5F7 /* Pods-Kobo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kobo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kobo/Pods-Kobo.release.xcconfig"; sourceTree = "<group>"; };
+		0A837B8D8D6E46643D3ABCC9 /* Pods-KoboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoboTests/Pods-KoboTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C5E019FF42E1728BBEAADB0 /* Pods_KoboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413669568BD6D4C93BA2803C /* Pods-Kobo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kobo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kobo/Pods-Kobo.debug.xcconfig"; sourceTree = "<group>"; };
+		807ACB218055E4B87A22EFE6 /* Pods-KoboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoboUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoboUITests/Pods-KoboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		818563611ABFD01A3A3DD2BB /* Pods_Kobo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kobo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9627F43C1FC81098007423F6 /* Kobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9627F43F1FC81098007423F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9627F4411FC81098007423F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9627F4441FC81098007423F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9627F4461FC81098007423F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9627F4491FC81098007423F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9627F44B1FC81098007423F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9627F4501FC81098007423F6 /* KoboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9627F4541FC81098007423F6 /* KoboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoboTests.swift; sourceTree = "<group>"; };
+		9627F4561FC81098007423F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9627F45B1FC81098007423F6 /* KoboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9627F45F1FC81098007423F6 /* KoboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoboUITests.swift; sourceTree = "<group>"; };
+		9627F4611FC81098007423F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9627F4701FC836AA007423F6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9627F4721FC836C7007423F6 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		9627F4741FC836E0007423F6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9627F4761FC836ED007423F6 /* DiscussViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussViewController.swift; sourceTree = "<group>"; };
+		9627F4781FC83707007423F6 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		964FD17A1FD9A69400DCF44E /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		964FD1831FD9A74A00DCF44E /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		9654CEF81FD9372900C8C041 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		968F75B61FD953FB00B16AF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9D6630AB4B8183177DA948D4 /* Pods_KoboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F67FA3AB0E55DEC6E25BC0 /* Pods-KoboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoboTests/Pods-KoboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB7F524F3BA54DD5E61DCFF /* Pods-KoboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoboUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoboUITests/Pods-KoboUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9627F4391FC81098007423F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9629B0AE1FD7F2C9004ABCBD /* SQLite.framework in Frameworks */,
+				E2538F2EB49E404094137765 /* Pods_Kobo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F44D1FC81098007423F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23484FD2516D3B263542398 /* Pods_KoboTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F4581FC81098007423F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85CCB9FE68EE263B5EC1A9 /* Pods_KoboUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9627F4331FC81098007423F6 = {
+			isa = PBXGroup;
+			children = (
+				9627F43E1FC81098007423F6 /* Kobo */,
+				9627F4531FC81098007423F6 /* KoboTests */,
+				9627F45E1FC81098007423F6 /* KoboUITests */,
+				9627F43D1FC81098007423F6 /* Products */,
+				9629B0801FD7EBFA004ABCBD /* Frameworks */,
+				BCC0A3DEDE19DA2EA0DEC301 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9627F43D1FC81098007423F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9627F43C1FC81098007423F6 /* Kobo.app */,
+				9627F4501FC81098007423F6 /* KoboTests.xctest */,
+				9627F45B1FC81098007423F6 /* KoboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9627F43E1FC81098007423F6 /* Kobo */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1821FD9A71500DCF44E /* Model */,
+				968F75B61FD953FB00B16AF4 /* GoogleService-Info.plist */,
+				9627F47C1FC83727007423F6 /* CustomUI */,
+				9627F46F1FC83692007423F6 /* ViewController */,
+				9627F43F1FC81098007423F6 /* AppDelegate.swift */,
+				9627F4411FC81098007423F6 /* ViewController.swift */,
+				9627F4431FC81098007423F6 /* Main.storyboard */,
+				9627F4461FC81098007423F6 /* Assets.xcassets */,
+				9627F4481FC81098007423F6 /* LaunchScreen.storyboard */,
+				9627F44B1FC81098007423F6 /* Info.plist */,
+			);
+			path = Kobo;
+			sourceTree = "<group>";
+		};
+		9627F4531FC81098007423F6 /* KoboTests */ = {
+			isa = PBXGroup;
+			children = (
+				9627F4541FC81098007423F6 /* KoboTests.swift */,
+				9627F4561FC81098007423F6 /* Info.plist */,
+			);
+			path = KoboTests;
+			sourceTree = "<group>";
+		};
+		9627F45E1FC81098007423F6 /* KoboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9627F45F1FC81098007423F6 /* KoboUITests.swift */,
+				9627F4611FC81098007423F6 /* Info.plist */,
+			);
+			path = KoboUITests;
+			sourceTree = "<group>";
+		};
+		9627F46F1FC83692007423F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9627F4701FC836AA007423F6 /* MainViewController.swift */,
+				9627F4721FC836C7007423F6 /* WorkViewController.swift */,
+				9627F4741FC836E0007423F6 /* SettingViewController.swift */,
+				9627F4761FC836ED007423F6 /* DiscussViewController.swift */,
+				9627F4781FC83707007423F6 /* HelpViewController.swift */,
+				9654CEF81FD9372900C8C041 /* QuestionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9627F47C1FC83727007423F6 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				964FD17A1FD9A69400DCF44E /* QuestionTableViewCell.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		9629B0801FD7EBFA004ABCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */,
+				818563611ABFD01A3A3DD2BB /* Pods_Kobo.framework */,
+				2C5E019FF42E1728BBEAADB0 /* Pods_KoboTests.framework */,
+				9D6630AB4B8183177DA948D4 /* Pods_KoboUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9629B0961FD7F288004ABCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9629B0A01FD7F289004ABCBD /* SQLite.framework */,
+				9629B0A21FD7F289004ABCBD /* SQLiteTests iOS.xctest */,
+				9629B0A41FD7F289004ABCBD /* SQLite.framework */,
+				9629B0A61FD7F289004ABCBD /* SQLiteTests Mac.xctest */,
+				9629B0A81FD7F289004ABCBD /* SQLite.framework */,
+				9629B0AA1FD7F289004ABCBD /* SQLiteTests tvOS.xctest */,
+				9629B0AC1FD7F289004ABCBD /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964FD1821FD9A71500DCF44E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1831FD9A74A00DCF44E /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCC0A3DEDE19DA2EA0DEC301 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				413669568BD6D4C93BA2803C /* Pods-Kobo.debug.xcconfig */,
+				038534FF336FF52E5CB9A5F7 /* Pods-Kobo.release.xcconfig */,
+				A7F67FA3AB0E55DEC6E25BC0 /* Pods-KoboTests.debug.xcconfig */,
+				0A837B8D8D6E46643D3ABCC9 /* Pods-KoboTests.release.xcconfig */,
+				807ACB218055E4B87A22EFE6 /* Pods-KoboUITests.debug.xcconfig */,
+				DDB7F524F3BA54DD5E61DCFF /* Pods-KoboUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9627F43B1FC81098007423F6 /* Kobo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9627F4641FC81098007423F6 /* Build configuration list for PBXNativeTarget "Kobo" */;
+			buildPhases = (
+				E6AB9783552230673A2C05FB /* [CP] Check Pods Manifest.lock */,
+				9627F4381FC81098007423F6 /* Sources */,
+				9627F4391FC81098007423F6 /* Frameworks */,
+				9627F43A1FC81098007423F6 /* Resources */,
+				9629B0861FD7EC0B004ABCBD /* Embed Frameworks */,
+				7ECBDD838280293FA11E74F3 /* [CP] Embed Pods Frameworks */,
+				5F8EDD3CF2F57F85B2E8BE61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9629B0B11FD7F2C9004ABCBD /* PBXTargetDependency */,
+			);
+			name = Kobo;
+			productName = Kobo;
+			productReference = 9627F43C1FC81098007423F6 /* Kobo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9627F44F1FC81098007423F6 /* KoboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9627F4671FC81098007423F6 /* Build configuration list for PBXNativeTarget "KoboTests" */;
+			buildPhases = (
+				FBCE43AE51C2BC0F7F3E6FCA /* [CP] Check Pods Manifest.lock */,
+				9627F44C1FC81098007423F6 /* Sources */,
+				9627F44D1FC81098007423F6 /* Frameworks */,
+				9627F44E1FC81098007423F6 /* Resources */,
+				4AB822AE3319AEC7984C0450 /* [CP] Embed Pods Frameworks */,
+				03F97275D5E3A481D1F31AAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9627F4521FC81098007423F6 /* PBXTargetDependency */,
+			);
+			name = KoboTests;
+			productName = KoboTests;
+			productReference = 9627F4501FC81098007423F6 /* KoboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9627F45A1FC81098007423F6 /* KoboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9627F46A1FC81098007423F6 /* Build configuration list for PBXNativeTarget "KoboUITests" */;
+			buildPhases = (
+				FBDC3FCF04511C670D202BC9 /* [CP] Check Pods Manifest.lock */,
+				9627F4571FC81098007423F6 /* Sources */,
+				9627F4581FC81098007423F6 /* Frameworks */,
+				9627F4591FC81098007423F6 /* Resources */,
+				43F36194F034630DB4E27343 /* [CP] Embed Pods Frameworks */,
+				C600BF4EB202DB1EF914F5B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9627F45D1FC81098007423F6 /* PBXTargetDependency */,
+			);
+			name = KoboUITests;
+			productName = KoboUITests;
+			productReference = 9627F45B1FC81098007423F6 /* KoboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9627F4341FC81098007423F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = KobeBryant;
+				TargetAttributes = {
+					9627F43B1FC81098007423F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9627F44F1FC81098007423F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9627F43B1FC81098007423F6;
+					};
+					9627F45A1FC81098007423F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9627F43B1FC81098007423F6;
+					};
+				};
+			};
+			buildConfigurationList = 9627F4371FC81098007423F6 /* Build configuration list for PBXProject "Kobo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9627F4331FC81098007423F6;
+			productRefGroup = 9627F43D1FC81098007423F6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9629B0961FD7F288004ABCBD /* Products */;
+					ProjectRef = 9629B0951FD7F288004ABCBD /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9627F43B1FC81098007423F6 /* Kobo */,
+				9627F44F1FC81098007423F6 /* KoboTests */,
+				9627F45A1FC81098007423F6 /* KoboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9629B0A01FD7F289004ABCBD /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9629B09F1FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0A21FD7F289004ABCBD /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 9629B0A11FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0A41FD7F289004ABCBD /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9629B0A31FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0A61FD7F289004ABCBD /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 9629B0A51FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0A81FD7F289004ABCBD /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9629B0A71FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0AA1FD7F289004ABCBD /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 9629B0A91FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9629B0AC1FD7F289004ABCBD /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9629B0AB1FD7F289004ABCBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9627F43A1FC81098007423F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9627F44A1FC81098007423F6 /* LaunchScreen.storyboard in Resources */,
+				9627F4471FC81098007423F6 /* Assets.xcassets in Resources */,
+				968F75B71FD953FB00B16AF4 /* GoogleService-Info.plist in Resources */,
+				9627F4451FC81098007423F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F44E1FC81098007423F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F4591FC81098007423F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F97275D5E3A481D1F31AAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoboTests/Pods-KoboTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F36194F034630DB4E27343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoboUITests/Pods-KoboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB822AE3319AEC7984C0450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoboTests/Pods-KoboTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8EDD3CF2F57F85B2E8BE61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kobo/Pods-Kobo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECBDD838280293FA11E74F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kobo/Pods-Kobo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kobo/Pods-Kobo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C600BF4EB202DB1EF914F5B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoboUITests/Pods-KoboUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AB9783552230673A2C05FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kobo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCE43AE51C2BC0F7F3E6FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDC3FCF04511C670D202BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9627F4381FC81098007423F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964FD17B1FD9A69400DCF44E /* QuestionTableViewCell.swift in Sources */,
+				9627F4791FC83707007423F6 /* HelpViewController.swift in Sources */,
+				964FD1841FD9A74A00DCF44E /* QuestionModel.swift in Sources */,
+				9627F4751FC836E0007423F6 /* SettingViewController.swift in Sources */,
+				9627F4711FC836AA007423F6 /* MainViewController.swift in Sources */,
+				9627F4731FC836C7007423F6 /* WorkViewController.swift in Sources */,
+				9627F4771FC836ED007423F6 /* DiscussViewController.swift in Sources */,
+				9654CEF91FD9372900C8C041 /* QuestionViewController.swift in Sources */,
+				9627F4421FC81098007423F6 /* ViewController.swift in Sources */,
+				9627F4401FC81098007423F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F44C1FC81098007423F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9627F4551FC81098007423F6 /* KoboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627F4571FC81098007423F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9627F4601FC81098007423F6 /* KoboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9627F4521FC81098007423F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9627F43B1FC81098007423F6 /* Kobo */;
+			targetProxy = 9627F4511FC81098007423F6 /* PBXContainerItemProxy */;
+		};
+		9627F45D1FC81098007423F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9627F43B1FC81098007423F6 /* Kobo */;
+			targetProxy = 9627F45C1FC81098007423F6 /* PBXContainerItemProxy */;
+		};
+		9629B0B11FD7F2C9004ABCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 9629B0B01FD7F2C9004ABCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9627F4431FC81098007423F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9627F4441FC81098007423F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9627F4481FC81098007423F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9627F4491FC81098007423F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9627F4621FC81098007423F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9627F4631FC81098007423F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9627F4651FC81098007423F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413669568BD6D4C93BA2803C /* Pods-Kobo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KY7JEZD25W;
+				INFOPLIST_FILE = Kobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemtowshen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9627F4661FC81098007423F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038534FF336FF52E5CB9A5F7 /* Pods-Kobo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KY7JEZD25W;
+				INFOPLIST_FILE = Kobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemtowshen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9627F4681FC81098007423F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F67FA3AB0E55DEC6E25BC0 /* Pods-KoboTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.KoboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kobo.app/Kobo";
+			};
+			name = Debug;
+		};
+		9627F4691FC81098007423F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A837B8D8D6E46643D3ABCC9 /* Pods-KoboTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.KoboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kobo.app/Kobo";
+			};
+			name = Release;
+		};
+		9627F46B1FC81098007423F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807ACB218055E4B87A22EFE6 /* Pods-KoboUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.KoboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kobo;
+			};
+			name = Debug;
+		};
+		9627F46C1FC81098007423F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB7F524F3BA54DD5E61DCFF /* Pods-KoboUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.KoboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kobo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9627F4371FC81098007423F6 /* Build configuration list for PBXProject "Kobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9627F4621FC81098007423F6 /* Debug */,
+				9627F4631FC81098007423F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9627F4641FC81098007423F6 /* Build configuration list for PBXNativeTarget "Kobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9627F4651FC81098007423F6 /* Debug */,
+				9627F4661FC81098007423F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9627F4671FC81098007423F6 /* Build configuration list for PBXNativeTarget "KoboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9627F4681FC81098007423F6 /* Debug */,
+				9627F4691FC81098007423F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9627F46A1FC81098007423F6 /* Build configuration list for PBXNativeTarget "KoboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9627F46B1FC81098007423F6 /* Debug */,
+				9627F46C1FC81098007423F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9627F4341FC81098007423F6 /* Project object */;
+}

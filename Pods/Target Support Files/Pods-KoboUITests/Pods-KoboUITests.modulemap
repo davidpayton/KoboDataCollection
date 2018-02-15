@@ -1,0 +1,6 @@
+framework module Pods_KoboUITests {
+  umbrella header "Pods-KoboUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
